@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaboolaMapTest", "TaboolaMapTest\TaboolaMapTest.csproj", "{9E14E599-1142-4091-96AF-B2B5E336D146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaboolaMapTest.UnitTest", "TaboolaMapTest.UnitTest\TaboolaMapTest.UnitTest.csproj", "{660B4252-F136-4D3E-9B02-B45617293B8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E14E599-1142-4091-96AF-B2B5E336D146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E14E599-1142-4091-96AF-B2B5E336D146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E14E599-1142-4091-96AF-B2B5E336D146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E14E599-1142-4091-96AF-B2B5E336D146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660B4252-F136-4D3E-9B02-B45617293B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660B4252-F136-4D3E-9B02-B45617293B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660B4252-F136-4D3E-9B02-B45617293B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660B4252-F136-4D3E-9B02-B45617293B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
