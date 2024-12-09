@@ -4,6 +4,7 @@ public class ItemLogger: IItemLogger
 {
     private readonly Dictionary<int, Dictionary<string, long>> _map = new();
     
+    //O(1)
     public void LogItem(string item, long timeStamp)
     {
         var minute = DateTimeOffset.FromUnixTimeSeconds(timeStamp).Minute;
@@ -22,6 +23,7 @@ public class ItemLogger: IItemLogger
         _map[minute][item] = Math.Max(_map[minute][item], timeStamp);
     }
 
+    //O(60) => O(1)
     public bool HasItemUpdatedSince(string item, long timeStamp)
     {
         var targetItem = _map.Values.FirstOrDefault(x => x.ContainsKey(item));
