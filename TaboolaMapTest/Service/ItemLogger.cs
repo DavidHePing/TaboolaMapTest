@@ -24,6 +24,13 @@ public class ItemLogger: IItemLogger
 
     public bool HasItemUpdatedSince(string item, long timeStamp)
     {
-        return false;
+        var targetItem = _map.Values.FirstOrDefault(x => x.ContainsKey(item));
+
+        if (targetItem == null)
+        {
+            return false;
+        }
+        
+        return targetItem[item] > timeStamp;
     }
 }
